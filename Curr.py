@@ -24,3 +24,5 @@ cur_t = st.selectbox("To",currency)
 if st.button("Convert"):
     val = curr_converter(amt,cur_f,curr_t)
     st.success(val)
+    
+st.title("Currency Converter")    
